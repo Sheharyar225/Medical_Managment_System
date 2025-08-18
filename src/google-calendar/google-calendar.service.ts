@@ -10,7 +10,6 @@ export class GoogleCalendarService {
   constructor() {
     this.oauth2Client = new OAuth2Client({
       clientId: '973843417451-loqqq1eamn576hmagmpolni22e19pgrn.apps.googleusercontent.com',
-      clientSecret: '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',
       redirectUri: 'http://localhost:3000/auth/google/callback'
     });
   }
